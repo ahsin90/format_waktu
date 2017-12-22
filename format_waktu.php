@@ -1,6 +1,11 @@
 <?php
+/*
+* Created by Muhammad Ahsin (ahsin90@rocketmail.com)
+* 2017
+*/
+
 function format_waktu($date_input){
-	//input format : 2016-10-19 12:01:45
+	//input format : 2017-10-19 12:01:45
 	if(!empty($date_input)){
 		$tanggal	= substr($date_input, 8, -8);
 		$bulan 		= substr($date_input, 5, -12);
